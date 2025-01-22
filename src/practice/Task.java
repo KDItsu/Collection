@@ -31,7 +31,7 @@ public class Task implements Comparable<Task> {
 	
 	@Override
 	public String toString() {
-		return date + content;
+		return date + ":" + content;
 	}
 	
 	@Override
